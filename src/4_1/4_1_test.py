@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 import pytest
-from l4_1 import convert_temperature
+from s4_1 import convert_temperature
 
 
 def test_books_value():
