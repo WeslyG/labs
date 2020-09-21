@@ -14,4 +14,4 @@ lint:
 
 test:
 	. .venv/bin/activate; \
-	pytest
+	pytest -vv
