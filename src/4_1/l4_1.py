@@ -2,5 +2,5 @@
 # -*- coding: utf-8 -*-
 
 
-def convert_temperature(celsius:int) -> int
+def convert_temperature(celsius: float) -> float:
     return celsius * 1.8000 + 32

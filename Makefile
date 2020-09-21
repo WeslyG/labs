@@ -8,6 +8,10 @@ deps: reqs
 	. .venv/bin/activate; \
 	pip3 install -r requirements.txt
 
+lint:
+	. .venv/bin/activate; \
+	flake8
+
 test:
 	. .venv/bin/activate; \
 	pytest
