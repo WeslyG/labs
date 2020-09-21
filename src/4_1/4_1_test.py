@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-import pytest
+from pytest import approx
 from s4_1 import convert_temperature
 
 
@@ -13,4 +13,4 @@ def test_zero():
 
 
 def test_float():
-    assert convert_temperature(36.6) == pytest.approx(97.88)
+    assert convert_temperature(36.6) == approx(97.88)
