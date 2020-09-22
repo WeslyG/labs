@@ -3,5 +3,6 @@
 
 from s9_2 import get_pi
 
+
 def test_s9_2():
     assert get_pi() == 3.14
