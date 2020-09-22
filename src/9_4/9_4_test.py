@@ -3,7 +3,7 @@
 
 import io
 import pytest
-from s9_4 import guess_number, get_random_int
+from s9_4 import guess_number
 
 
 def test_s9_4(capsys, mocker, monkeypatch):
