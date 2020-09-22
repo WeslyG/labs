@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-import pytest
 from s7_7 import ticket_calculator
 
 
