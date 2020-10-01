@@ -15,11 +15,6 @@ def get_period() -> float:
     return (1 / N)
 
 
-def linear_interpolation(t):
-    return start * t + end
-    # P1(x) = ax + b
-
-
 def base_function(t: float) -> float:
     w = 2 * math.pi * N
     fi = (2 * math.pi) / N
@@ -90,7 +85,7 @@ plt.legend(['discret', 'linear', 'cubic'], loc='best')
 # 8
 for_8 = plt.subplot(233)
 for_8.title.set_text('8 точек в периоде')
-plt.plot(x_8, y_8, 'o')
+plt.plot(x_8, y_8, 'o', linewidth=3)
 plt.plot(xnew_8, f_8(xnew_8), '-')
 plt.plot(xnew_8, f_cubic_8(xnew_8), '--')
 plt.legend(['discret', 'linear', 'cubic'], loc='best')
